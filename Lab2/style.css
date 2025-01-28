@@ -1,7 +1,7 @@
 header{
-    display: flex; /* Включаем flexbox */
-    justify-content: space-between; /* Распределение пространства между элементами */
-    align-items: center; /* Выравнивание по вертикали */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-left: 250px;
     padding-right: 250px;
     padding-top: 250px;
@@ -10,7 +10,7 @@ header{
 }
 form{
     display: flex;
-    flex-direction: column; /* Поля располагаются вертикально */
+    flex-direction: column;
     gap: 15px;
     width: 100%;
 }
@@ -19,11 +19,11 @@ input{
     background-color: white;
     color: black;
     cursor: auto;
-    width: 90%; /* Поля занимают всю ширину контейнера */
-    padding: 12px 15px; /* Внутренние отступы */
-    font-size: 16px; /* Размер текста */
-    border: 1px solid #dcdcdc; /* Цвет рамки */
-    border-radius: 10px; /* Закругленные углы */
+    width: 90%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
 
 }
 .enter-button{
