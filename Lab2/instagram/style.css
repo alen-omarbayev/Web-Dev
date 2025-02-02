@@ -1,0 +1,188 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 300px 50px 30px;
+    gap: 10px;
+}
+.ig-image-block{
+    width: 50%;
+}
+.ig-image{
+    width: 800px;
+    height: auto;
+
+}
+.login-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+
+}
+.logo-img{
+    width: 200px;
+    height: auto;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 30px 30px 30px 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    padding-bottom: 5px;
+}
+input{
+    background-color: white;
+    color: black;
+    cursor: auto;
+    width: 92%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+.join-button{
+    background-color: #0764fa;
+    color: white;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.divider {
+    display: inline-block; /* Включаем Flexbox */
+    flex-direction: row;
+    align-items: center; /* Центрируем текст вертикально */
+    justify-content: space-between; /* Центрируем текст горизонтально */
+    gap: 10px; /* Расстояние между линиями и текстом */
+    padding-bottom: 15px;
+    text-decoration: 2px gray line-through;
+
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: gray;
+    text-decoration: 2px gray line-through;
+}
+
+.divider span {
+    color: gray; /* Цвет текста */
+    font-weight: bold; /* Жирность текста */
+    text-transform: uppercase; /* Преобразование текста в верхний регистр */
+    font-size: 14px; /* Размер текста */
+}
+.facebook-logo-img{
+    width: 15px;
+}
+.facebook-login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0764fa;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.forgot-pswrd{
+    color: #4f6c92;
+    font-size: 17px;
+    text-decoration: none;
+
+}
+.signup-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 97%;
+
+}
+.signup-text{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    align-self: center;
+}
+.signup-link{
+    color: #0764fa;
+    text-decoration: none;
+}
+
+.download-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    gap: 5px;
+}
+.download-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.app-store-button{
+    width: 100%;
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.footer-links{
+    color: #656565;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 15px;
+    transition: text-decoration 0.3s ease;
+}
+.footer-links:hover{
+    text-decoration: underline;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
