@@ -1,0 +1,227 @@
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 200px;
+    padding: 10px 30px 20px;
+}
+.header-top a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: text-decoration 0.1ms ease;
+}
+.header-top a:hover{
+    text-decoration: underline;
+}
+.header-top-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.header-top-left img{
+    width: 150px;
+
+}
+.header-top-right{
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+
+}
+.header-top-right img{
+    width: 15px;
+    margin-left: 5px;
+}
+.header-top-right a{
+    align-items: center;
+    text-align: center;
+}
+.header-bottom{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #0167b8;
+    padding: 10px 40px;
+}
+.header-bottom a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    transition: text-decoration 0.1ms ease;
+    align-items: center;
+    display: flex;
+}
+.header-bottom a:hover{
+    text-decoration: underline;
+}
+.header-bottom img{
+
+    filter: invert(100%) brightness(100%);
+    width: 10px;
+    transition: padding-left 0.5s ease;
+}
+.header-bottom a:hover img{
+    padding-left: 3px;
+    transform: translateX(3px);
+
+}
+.header-main{
+    background-image: url("images/microsoft-copilot-background.avif");
+    background-size: contain;
+
+    background-repeat: no-repeat;
+    width: 100%;
+    height:600px;
+
+}
+.header-main-shop{
+    background-color: white;
+    display: inline-block;
+    padding: 30px 60px 30px 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px #c1bbbb;
+}
+.header-main-shop button{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: #0764b1;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+.header-main-shop button:hover{
+    background-color: #065393;
+}
+.header-main-directions{
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.header-main-directions button{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+/*.header-main-directions img{*/
+/*    width: 15px;*/
+/*}*/
+.arrow{
+    width: 15px;
+}
+.arrow-left{
+    transform: scaleX(-1);
+    width: 15px;
+}
+.dot{
+    width: 30px;
+}
+.pause{
+    width: 20px;
+}
+.header-main-images{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 5px;
+}
+.header-main-images button{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+.header-main-images button p{
+    color: #0764fa;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.header-main-images button img{
+    width: 40px;
+}
+main{
+    padding-top: 50px;
+}
+.main-content{
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 50px 50px 20px;
+}
+.main-content-button{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+    border: none;
+
+    box-shadow: 1px 2px 10px 2px #c1bbbb;
+    width: 100%;
+    flex: 1;
+
+}
+.main-content-text{
+    padding: 5px 20px 20px;
+    flex-grow: 1;
+
+    position: relative;
+}
+.main-content-button img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.main-content-text button{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: #0764b1;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+    margin-top: auto;
+    position: absolute;
+    bottom: 20px;
+}
+.main-content-text button:hover {
+    background-color: #065393;
+}
+.main-content-text-paragraph{
+    padding-bottom: 30px;
+}
+.main-content-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
