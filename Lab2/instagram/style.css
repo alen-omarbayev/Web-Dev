@@ -68,11 +68,11 @@ input{
 }
 
 .divider {
-    display: inline-block; /* Включаем Flexbox */
+    display: inline-block;
     flex-direction: row;
-    align-items: center; /* Центрируем текст вертикально */
-    justify-content: space-between; /* Центрируем текст горизонтально */
-    gap: 10px; /* Расстояние между линиями и текстом */
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
     padding-bottom: 15px;
     text-decoration: 2px gray line-through;
 
@@ -88,10 +88,10 @@ input{
 }
 
 .divider span {
-    color: gray; /* Цвет текста */
-    font-weight: bold; /* Жирность текста */
-    text-transform: uppercase; /* Преобразование текста в верхний регистр */
-    font-size: 14px; /* Размер текста */
+    color: gray;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 .facebook-logo-img{
     width: 15px;
