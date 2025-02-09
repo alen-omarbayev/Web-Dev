@@ -1,0 +1,71 @@
+header{
+    text-align: left;
+    background-color: black;
+    color: gray;
+}
+header p{
+    padding: 15px 60px;
+    font-size: 20px;
+}
+main{
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+h1{
+    font-weight: normal;
+}
+.input-block{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.input-block input{
+    padding: 10px 12px;
+    width: 80%;
+    margin-right: 20px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.add-button{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #327bb7;
+    cursor: pointer;
+}
+.task-list{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.task-block{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 15px;
+    width: 100%;
+    position: relative;
+}
+.task-block button{
+    cursor: pointer;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    width: 30px;
+    right:50px
+}
+.task-block button img{
+    width: 100%;
+}
+.task-block input{
+    padding-right: 30px;
+}
+.task-block p{
+    padding-left: 30px;
+    font-size: 20px;
+}
