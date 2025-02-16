@@ -1,0 +1,17 @@
+:host {
+  --content-padding: 10px;
+}
+header {
+  display: block;
+  height: 60px;
+  padding: var(--content-padding);
+  background-color: #a43232;
+}
+.content {
+  padding: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: row;
+}
