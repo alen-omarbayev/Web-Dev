@@ -1,0 +1,11 @@
+a{
+    font-size: 30px;
+    width: fit-content;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
