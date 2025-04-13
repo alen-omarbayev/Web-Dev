@@ -1,0 +1,13 @@
+<div class="vacancy-list">
+    <h3>Vacancies</h3>
+    
+    <div *ngIf="vacancies.length === 0" class="no-vacancies">
+      No vacancies available for this company.
+    </div>
+  
+    <div *ngFor="let vacancy of vacancies" class="vacancy-card">
+      <h4>{{ vacancy.name }}</h4>
+      <p>Salary: ${{ vacancy.salary }}</p>
+      <p>{{ vacancy.description }}</p>
+    </div>
+  </div>
